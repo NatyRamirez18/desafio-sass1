@@ -1,0 +1,23 @@
+.sucursales{
+	background-color: $secondaryColor;
+		
+	h2{
+		color:#493333 ;
+		}
+		a{
+		text-decoration: none;
+	    list-style: none;
+	    &:hover{
+	    	color: #694646;
+	    }
+	 }  
+
+}
+
+.media{
+	@media (min-width: 400px){
+		width: 100%;
+	}
+}
+
+

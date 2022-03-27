@@ -1,0 +1,9 @@
+.navHead{
+	background-color: $mainColor;
+	a{
+		&:hover{
+			color: black;
+			font-weight: 600;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.category{
+	background-color: $secondaryColor;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	h1{
+		text-align: center;
+		font: $fontSecondary;
+		font-size: $textLg;
+		color: #321616;
+	}
+	a{
+		background-color: $secondaryColor;
+		&:hover{
+			font-size: $textMd;
+			font-weight: 600;
+		}
+
+	}
+
+	
+}
